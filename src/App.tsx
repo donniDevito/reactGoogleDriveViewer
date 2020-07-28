@@ -1,13 +1,8 @@
 import React from 'react';
-import LoginButton from './components';
+import LandingPageComponent from './components/LandingPageComponent';
 
 function App(): JSX.Element {
-  return (
-    <>
-      <div>Login button page2</div>
-      <LoginButton />
-    </>
-  );
+  return <LandingPageComponent />;
 }
 
 export default App;

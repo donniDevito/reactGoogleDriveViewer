@@ -1,3 +1,12 @@
-import { LoginButton } from './authButtonComponent/authButton';
+import React from 'react';
+import NavBar from './NavBarComponent/NavBar';
 
-export default LoginButton;
+const Home = (): JSX.Element => {
+  return (
+    <>
+      <NavBar />
+    </>
+  );
+};
+
+export default Home;
