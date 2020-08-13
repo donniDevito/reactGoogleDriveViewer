@@ -4,9 +4,11 @@
   "private": true,
   "dependencies": {
     "@auth0/auth0-react": "^1.0.0",
-    "@material-ui/core": "^4.11.0",
+    "@fluentui/react": "^7.124.1",
     "@material-ui/icons": "^4.9.1",
     "@material-ui/styles": "^4.10.0",
+    "@opuscapita/react-filemanager": "1.1.1",
+    "@opuscapita/react-filemanager-connector-google-drive-v2": "^1.1.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -14,19 +16,33 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/styled-components": "^5.1.2",
+    "color-convert": "^2.0.1",
+    "dotenv": "^8.2.0",
+    "moment": "^2.27.0",
+    "npm-run-all": "^4.1.5",
+    "postcss-import": "^12.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
+    "styled-components": "^5.1.1",
     "tslint-plugin-prettier": "^2.3.0",
     "tslint-react": "^5.0.0",
     "typescript": "~3.7.2"
   },
-  "scripts": {
-    "start": "react-scripts start",
+  "scripts": {    
+    "start": "run-p startReact",
+    "startReact": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "tslint 'src/**/*.{ts,tsx,js}'"
+    "lint": "tslint 'src/**/*.{ts,tsx,js}'",
+    "build:css": "postcss src/styles/tailwind.css -o src/styles/tailwindBuild.css",
+    "watch:css": "postcss src/styles/tailwind.css -o src/styles/tailwindBuild.css -w",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -44,7 +60,17 @@
     ]
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/preset-create-react-app": "^3.1.4",
+    "@storybook/react": "^5.3.19",
+    "@types/faker": "^4.1.12",
+    "autoprefixer": "^9.8.6",
+    "faker": "^4.1.0",
+    "postcss-cli": "^7.1.1",
     "prettier": "^2.0.5",
+    "tailwindcss": "^1.6.2",
     "tslint": "^6.1.2",
     "tslint-config-prettier": "^1.18.0"
   }
