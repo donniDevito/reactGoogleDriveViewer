@@ -1,0 +1,79 @@
+/* Montserat Light */
+@font-face {
+  font-family: 'Montserat';
+  src: url('./fonts/Montserat/light.woff2') format('woff2'),
+    url('./fonts/Montserat/light.woff') format('woff');
+  font-weight: 200;
+}
+
+/* Montserat Regular */
+@font-face {
+  font-family: 'Montserat';
+  src: url('./fonts/Montserat/regular.woff2') format('woff2'),
+    url('./fonts/Montserat/regular.woff') format('woff');
+  font-weight: 400;
+}
+
+/* Montserat Medium */
+@font-face {
+  font-family: 'Montserat';
+  src: url('./fonts/Montserat/medium.woff2') format('woff2'),
+    url('./fonts/Montserat/medium.woff') format('woff');
+  font-weight: 500;
+}
+
+/* Montserat Semibold */
+@font-face {
+  font-family: 'Montserat';
+  src: url('./fonts/Montserat/semibold.woff2') format('woff2'),
+    url('./fonts/Montserat/semibold.woff') format('woff');
+  font-weight: 600;
+}
+
+/* Montserat Bold */
+@font-face {
+  font-family: 'Montserat';
+  src: url('./fonts/Montserat/bold.woff2') format('woff2'),
+    url('./fonts/Montserat/bold.woff') format('woff');
+  font-weight: 700;
+}
+
+/* Whitman Roman Regular */
+@font-face {
+  font-family: 'WhitmanRoman';
+  src: url('./fonts/WhitmanRoman/regular.woff2') format('woff2'),
+    url('./fonts/WhitmanRoman/regular.woff') format('woff');
+  font-weight: 400;
+}
+
+/* WhitmanDisplay Regular */
+@font-face {
+  font-family: 'WhitmanDisplay';
+  src: url('./fonts/WhitmanDisplay/regular.woff2') format('woff2'),
+    url('./fonts/WhitmanDisplay/regular.woff') format('woff');
+  font-weight: 400;
+}
+
+/* WhitmanDisplay Bold */
+@font-face {
+  font-family: 'WhitmanDisplay';
+  src: url('./fonts/WhitmanDisplay/bold.woff2') format('woff2'),
+    url('./fonts/WhitmanDisplay/bold.woff') format('woff');
+  font-weight: 700;
+}
+
+/* Condor Light */
+@font-face {
+  font-family: 'Condor';
+  src: url('./fonts/Condor/light.woff2') format('woff2'),
+    url('./fonts/Condor/light.woff') format('woff');
+  font-weight: 100;
+}
+
+/* Condor Regular */
+@font-face {
+  font-family: 'Condor';
+  src: url('./fonts/Condor/regular.woff2') format('woff2'),
+    url('./fonts/Condor/regular.woff') format('woff');
+  font-weight: 400;
+}
